@@ -3,22 +3,26 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-2.1_r2.1p2"
+  <remote name="github" fetch="git://github.com/" />
+  
+  <default revision="eclair"
            remote="korg" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+
   <project path="bionic" name="platform/bionic" />
+
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform/dalvik" remote="github" />
   <project path="development" name="platform/development" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="github" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
