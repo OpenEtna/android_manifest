@@ -39,7 +39,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+  <project path="system/core" name="Polytheus/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
@@ -78,7 +78,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="Polytheus/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="eclair-froyo" />
