@@ -177,6 +177,9 @@
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="vendor/sample" name="platform/vendor/sample" />
+  <project path="vendor/openetna" name="Polytheus/android_vendor_openetna" remote="github" >
+    <copyfile src="doBuild" dest="doBuild" />
+  </project>
 
   <project path="cts" name="platform/cts" />
 </manifest>
