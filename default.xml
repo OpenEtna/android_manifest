@@ -8,7 +8,7 @@
   <default revision="eclair"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="Polytheus/android_build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
