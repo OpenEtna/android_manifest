@@ -179,6 +179,7 @@
   <project path="vendor/sample" name="platform/vendor/sample" />
   <project path="vendor/openetna" name="Polytheus/android_vendor_openetna" remote="github" >
     <copyfile src="doBuild" dest="doBuild" />
+    <copyfile src="stack" dest="stack" />
   </project>
 
   <project path="cts" name="platform/cts" />
