@@ -181,6 +181,4 @@
     <copyfile src="doBuild" dest="doBuild" />
     <copyfile src="stack" dest="stack" />
   </project>
-
-  <project path="cts" name="platform/cts" />
 </manifest>
