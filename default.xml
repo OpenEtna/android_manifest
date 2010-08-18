@@ -13,7 +13,7 @@
   </project>
 
 
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="OpenEtna/android_bionic" remote="github" />
 
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
