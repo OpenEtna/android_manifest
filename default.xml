@@ -14,7 +14,7 @@
 
 
   <project path="bionic" name="OpenEtna/android_bionic" remote="github" />
-
+  <project path="kernel" name="OpenEtna/android_kernel" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
