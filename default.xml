@@ -184,5 +184,6 @@
   <project path="vendor/openetna" name="Polytheus/android_vendor_openetna" remote="github" >
     <copyfile src="doBuild" dest="doBuild" />
     <copyfile src="stack" dest="stack" />
+    <copyfile src="checkUnpushed" dest="checkUnpushed" />
   </project>
 </manifest>
