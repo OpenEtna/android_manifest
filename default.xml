@@ -76,7 +76,7 @@
   <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="Polytheus/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
