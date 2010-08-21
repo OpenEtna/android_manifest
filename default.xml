@@ -13,7 +13,7 @@
   </project>
 
 
-  <project path="bionic" name="OpenEtna/android_bionic" remote="github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="kernel" name="OpenEtna/android_kernel" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -102,7 +102,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
-  <porject path="external/busybox" name="dylex/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
