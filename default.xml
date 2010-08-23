@@ -22,7 +22,7 @@
 
   <project path="dalvik" name="OpenEtna/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
-  <project path="frameworks/base" name="Polytheus/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="OpenEtna/android_frameworks_base" remote="github" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -78,7 +78,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="Polytheus/android_packages_apps_Phone" remote="github" />
+  <project path="packages/apps/Phone" name="OpenEtna/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <!--
@@ -181,7 +181,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="vendor/sample" name="platform/vendor/sample" />
-  <project path="vendor/openetna" name="Polytheus/android_vendor_openetna" remote="github" >
+  <project path="vendor/openetna" name="OpenEtna/android_vendor_openetna" remote="github" >
     <copyfile src="doBuild" dest="doBuild" />
     <copyfile src="stack" dest="stack" />
     <copyfile src="checkUnpushed" dest="checkUnpushed" />
