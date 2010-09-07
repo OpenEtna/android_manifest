@@ -27,13 +27,10 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="OpenEtna/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="OpenEtna/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="OpenEtna/android_hardware_msm7k" remote="github" />
   <project path="hardware/ril" name="OpenEtna/android_hardware_ril" remote="github" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="sdk" name="platform/sdk" />
 
   <project path="prebuilt" name="platform/prebuilt" />
