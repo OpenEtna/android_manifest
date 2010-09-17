@@ -103,6 +103,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
+  <project path="external/klogtail" name="nopy/android_external_klogtail" remote="github" revision="master" />
   <project path="external/busybox" name="OpenEtna/android_external_busybox" remote="github" />
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
