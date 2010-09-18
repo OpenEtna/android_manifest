@@ -4,6 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" />
+  <remote name="codeaurora" fetch="git://codeaurora.org/" />
   
   <default revision="eclair"
            remote="korg" />
@@ -26,7 +27,7 @@
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="codeaurora" />
   <project path="hardware/libhardware" name="OpenEtna/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="OpenEtna/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="OpenEtna/android_hardware_msm7k" remote="github" />
@@ -80,7 +81,7 @@
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="OpenEtna/android_packages_apps_Phone" remote="github" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="OpenEtna/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <!--
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="eclair-froyo" />
