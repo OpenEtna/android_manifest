@@ -40,7 +40,6 @@
   <project path="device/lg/eve" name="OpenEtna/android_device_lg_eve" remote="github" >
     <copyfile src="stack" dest="stack" />
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
-    <copyfile src="packSystem" dest="packSystem" /> 
   </project>
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
