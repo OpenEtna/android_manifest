@@ -35,8 +35,8 @@
   <project path="hardware/msm7k" name="OpenEtna/android_hardware_msm7k" remote="github" />
   <project path="hardware/ril" name="OpenEtna/android_hardware_ril" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
-  <!-- <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" /> -->
-  <!-- <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" /> -->
+  <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
+  <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" />
 
   <project path="sdk" name="platform/sdk" />
 
