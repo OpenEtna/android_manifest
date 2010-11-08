@@ -23,8 +23,11 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" revision="master" />
+  <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
+  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" />
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
@@ -41,6 +44,8 @@
     <copyfile src="stack" dest="stack" />
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
   </project>
+  <project path="device/kyocera/m6000" name="koush/android_device_kyocera_m6000" remote="github" revision="master" />
+  <project path="device/motorola/backflip" name="koush/android_device_motorola_backflip" remote="github" revision="master" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
@@ -127,6 +132,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <project path="external/tslib" name="CyanogenMod/android_external_tslib" remote="github" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
@@ -195,6 +201,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="master" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="master" />
+  <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" />
