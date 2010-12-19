@@ -22,8 +22,8 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="froyo" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="gingerbread" />
+  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="gingerbread" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
@@ -32,6 +32,7 @@
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
   </project>
 
+  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" revision="gingerbread" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -143,7 +144,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
+  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
