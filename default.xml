@@ -17,13 +17,16 @@
   <project path="bionic" name="OpenEtna/android_bionic" remote="github" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="gingerbread" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="gingerbread" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="gingerbread" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
+  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
+  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
+  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
+  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
@@ -34,9 +37,10 @@
 
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" revision="gingerbread" />
+  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/busybox" name="OpenEtna/android_external_busybox" remote="github" />
   <project path="external/blktrace" name="platform/external/blktrace" />
@@ -47,11 +51,11 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="platform/external/clearsilver" />
+  <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="github" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
@@ -80,12 +84,14 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -98,6 +104,7 @@
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="master" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
@@ -114,10 +121,11 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="gingerbread" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/base" name="OpenEtna/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
@@ -134,6 +142,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
+  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" revision="gingerbread-kang" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -175,7 +184,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
@@ -191,5 +200,5 @@
 
   <project path="android" name="OpenEtna/android_manifest" remote="github" />
   <project path="kernel" name="OpenEtna/android_kernel" remote="github" revision="android-msm-2.6.35-unified" />
-
+  <project path="vendor/cyanogen" name="OpenEtna/android_vendor_cyanogen" remote="github" />
 </manifest>
