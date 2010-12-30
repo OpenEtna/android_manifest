@@ -59,7 +59,7 @@
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="master" />
-  <project path="external/apache-http" name="platform/external/apache-http" revision="master" />
+  <project path="external/apache-http" name="platform/external/apache-http" revision="froyo-plus-aosp" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="bash-4.1-froyo" />
   <project path="external/bison" name="platform/external/bison" />
