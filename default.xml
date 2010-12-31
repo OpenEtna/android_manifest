@@ -239,6 +239,6 @@
 
   <project path="vendor/cyanogen" name="OpenEtna/android_vendor_cyanogen" remote="github" />
 
-  <project path="android" name="CyanogenMod/android" remote="github" />
+  <project path="android" name="OpenEtna/android_manifest" remote="github" />
 
 </manifest>
