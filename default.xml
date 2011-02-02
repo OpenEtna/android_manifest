@@ -8,6 +8,9 @@
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="themes"
+           fetch="git://github.com/tmobile" />
+
   <default revision="gingerbread"
            remote="korg" />
 
@@ -24,6 +27,7 @@
   <project path="device/bn/nookcolor" name="CyanogenMod/android_device_bn_nookcolor" remote="github" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" />
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
+  <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
@@ -34,6 +38,7 @@
   <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
   <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
   <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" />
+  <project path="device/htc/leo" name="CyanogenMod/android_device_htc_leo" remote="github" />
   <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
@@ -75,6 +80,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -125,7 +131,7 @@
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" />
@@ -164,7 +170,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" />
@@ -196,7 +202,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -224,4 +230,12 @@
   <project path="android" name="OpenEtna/android_manifest" remote="github" />
   <project path="kernel" name="OpenEtna/android_kernel" remote="github" revision="android-msm-2.6.35-unified" />
   <project path="vendor/cyanogen" name="OpenEtna/android_vendor_cyanogen" remote="github" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
+
 </manifest>
