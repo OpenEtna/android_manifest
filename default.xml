@@ -152,7 +152,7 @@
   <project path="frameworks/base" name="OpenEtna/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
+  <project path="frameworks/policies/base" name="OpenEtna/android_frameworks_policies_base" remote="github" />
 
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
