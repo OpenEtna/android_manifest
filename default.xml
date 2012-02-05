@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+           fetch="https://android.googlesource.com/"
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" />
   <remote name="codeaurora" fetch="git://codeaurora.org/" />
